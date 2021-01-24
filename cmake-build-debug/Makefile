@@ -143,6 +143,19 @@ data_integrity_checker_run/fast:
 .PHONY : data_integrity_checker_run/fast
 
 #=============================================================================
+# Target rules for targets named data-integrity-checker
+
+# Build rule for target.
+data-integrity-checker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 data-integrity-checker
+.PHONY : data-integrity-checker
+
+# fast build rule for target.
+data-integrity-checker/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\data-integrity-checker.dir\build.make src/CMakeFiles/data-integrity-checker.dir/build
+.PHONY : data-integrity-checker/fast
+
+#=============================================================================
 # Target rules for targets named gtest
 
 # Build rule for target.
@@ -216,6 +229,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... data-integrity-checker
 	@echo ... data_integrity_checker_run
 	@echo ... gtest
 	@echo ... gtest_main

@@ -99,6 +99,7 @@ data_integrity_checker_run_EXTERNAL_OBJECTS =
 
 data_integrity_checker_run.exe: CMakeFiles/data_integrity_checker_run.dir/main.cpp.obj
 data_integrity_checker_run.exe: CMakeFiles/data_integrity_checker_run.dir/build.make
+data_integrity_checker_run.exe: src/libdata-integrity-checker.a
 data_integrity_checker_run.exe: CMakeFiles/data_integrity_checker_run.dir/linklibs.rsp
 data_integrity_checker_run.exe: CMakeFiles/data_integrity_checker_run.dir/objects1.rsp
 data_integrity_checker_run.exe: CMakeFiles/data_integrity_checker_run.dir/link.txt

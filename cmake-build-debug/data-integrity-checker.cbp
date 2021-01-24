@@ -81,6 +81,50 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="data-integrity-checker">
+				<Option output="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/libdata-integrity-checker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 data-integrity-checker"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data-integrity-checker/fast">
+				<Option output="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/libdata-integrity-checker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 data-integrity-checker/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="gtest">
 				<Option output="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug/test/lib/googletest"/>
@@ -228,6 +272,12 @@
 		</Build>
 		<Unit filename="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/main.cpp">
 			<Option target="data_integrity_checker_run"/>
+		</Unit>
+		<Unit filename="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/src/configuration.cpp">
+			<Option target="data-integrity-checker"/>
+		</Unit>
+		<Unit filename="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/src/configuration.hpp">
+			<Option target="data-integrity-checker"/>
 		</Unit>
 		<Unit filename="D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/test/basic_test/test_connection.cpp">
 			<Option target="runBasicTests"/>

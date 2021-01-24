@@ -129,6 +129,48 @@ depend:
 	cd /d D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/data-integrity-checker.dir/rule:
+	cd /d D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/data-integrity-checker.dir/rule
+.PHONY : src/CMakeFiles/data-integrity-checker.dir/rule
+
+# Convenience name for target.
+data-integrity-checker: src/CMakeFiles/data-integrity-checker.dir/rule
+
+.PHONY : data-integrity-checker
+
+# fast build rule for target.
+data-integrity-checker/fast:
+	cd /d D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\data-integrity-checker.dir\build.make src/CMakeFiles/data-integrity-checker.dir/build
+.PHONY : data-integrity-checker/fast
+
+configuration.obj: configuration.cpp.obj
+
+.PHONY : configuration.obj
+
+# target to build an object file
+configuration.cpp.obj:
+	cd /d D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\data-integrity-checker.dir\build.make src/CMakeFiles/data-integrity-checker.dir/configuration.cpp.obj
+.PHONY : configuration.cpp.obj
+
+configuration.i: configuration.cpp.i
+
+.PHONY : configuration.i
+
+# target to preprocess a source file
+configuration.cpp.i:
+	cd /d D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\data-integrity-checker.dir\build.make src/CMakeFiles/data-integrity-checker.dir/configuration.cpp.i
+.PHONY : configuration.cpp.i
+
+configuration.s: configuration.cpp.s
+
+.PHONY : configuration.s
+
+# target to generate assembly for a file
+configuration.cpp.s:
+	cd /d D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\data-integrity-checker.dir\build.make src/CMakeFiles/data-integrity-checker.dir/configuration.cpp.s
+.PHONY : configuration.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -137,6 +179,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... data-integrity-checker
+	@echo ... configuration.obj
+	@echo ... configuration.i
+	@echo ... configuration.s
 .PHONY : help
 
 

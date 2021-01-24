@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libdata-integrity-checker.a  CMakeFiles/data-integrity-checker.dir/configuration.cpp.obj
+C:\MinGW\bin\ranlib.exe libdata-integrity-checker.a
