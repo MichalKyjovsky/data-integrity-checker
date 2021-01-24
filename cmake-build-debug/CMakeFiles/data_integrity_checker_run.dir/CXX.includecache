@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../src/configuration.hpp
+iostream
+-
+
+D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/main.cpp
+configuration.hpp
+D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/configuration.hpp
+

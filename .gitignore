@@ -34,4 +34,7 @@
 #idea
 .idea
 
+#Mocking framework
 test/lib/googlemock
+
+cmake-build-debug
