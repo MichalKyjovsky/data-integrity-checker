@@ -1,4 +1,0 @@
-C:\Users\micha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\micha\MFF_UK\NPRG041\course_project\data-integrity-checker
--- Configuring done
--- Generating done
--- Build files have been written to: D:/micha/MFF_UK/NPRG041/course_project/data-integrity-checker/cmake-build-debug
