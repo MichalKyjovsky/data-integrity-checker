@@ -34,5 +34,4 @@
 #idea
 .idea
 
-#gtest
-test/lib
+test/lib/googlemock
