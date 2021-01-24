@@ -1,3 +1,5 @@
+![CMake](https://github.com/MichalKyjovsky/data-integrity-checker/workflows/CMake/badge.svg?branch=main)
+
 # Data Integrity Checker
 
 ## Project Overview
